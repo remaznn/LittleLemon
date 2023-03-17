@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'LittleLemonAPI',
+    'djoser',
 ]
 
 MIDDLEWARE = [
@@ -131,6 +132,7 @@ USE_I18N = True
 
 USE_TZ = True
 
+DJOSER={"USER_ID_FIELD":"username"}
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
